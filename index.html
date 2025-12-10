@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyruX HUB - Centro de Control</title>
+
+    <style>
+
+        /* Estilos Globales y Fondo Oscuro */
+
+        body {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #0A0A0C; /* Negro Oscuro (PANEL_BG) */
+
+            color: #FFFFFF; /* Blanco Vibrante (TEXT_COLOR) */
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            min-height: 100vh;
+
+        }
+
+        /* Contenedor Principal */
+
+        .container {
+
+            width: 90%;
+
+            max-width: 600px;
+
+            padding: 30px;
+
+            background-color: #121214; /* Fondo Ligeramente más claro */
+
+            border-radius: 10px;
+
+            border: 2px solid #FFFFFF; /* Borde Blanco Vibrante */
+
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+
+            text-align: center;
+
+        }
+
+        /* Encabezado */
+
+        h1 {
+
+            font-size: 2.2em;
+
+            margin-bottom: 25px;
+
+            text-transform: uppercase;
+
+            letter-spacing: 2px;
+
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+            padding-bottom: 10px;
+
+        }
+
+        h1 span {
+
+            color: #FFFFFF;
+
+        }
+
+        /* Contenedor de Cuadros de Estado */
+
+        .status-grid {
+
+            display: flex;
+
+            justify-content: space-around;
+
+            gap: 15px;
+
+            margin-bottom: 40px;
+
+        }
+
+        /* Cuadros de Estado */
+
+        .status-box {
+
+            flex: 1;
+
+            padding: 15px 10px;
+
+            border-radius: 8px;
+
+            background-color: #1E1E22; /* Fondo de Modulo */
+
+            border: 1px solid #C8C8C8; /* Gris Claro (ACCENT_COLOR) */
+
+        }
+
+        .status-box h3 {
+
+            margin: 0 0 5px 0;
+
+            font-size: 0.9em;
+
+            color: #C8C8C8; /* Gris Claro */
+
+            font-weight: 600;
+
+        }
+
+        .status-box p {
+
+            margin: 0;
+
+            font-size: 1.2em;
+
+            font-weight: bold;
+
+            color: #00FF96; /* Verde ON (Para 'Activo') */
+
+        }
+
+        /* Botón de Acción */
+
+        .action-button {
+
+            display: inline-block;
+
+            padding: 15px 30px;
+
+            font-size: 1.1em;
+
+            font-weight: bold;
+
+            text-decoration: none;
+
+            text-transform: uppercase;
+
+            color: #0A0A0C; /* Texto negro para contraste */
+
+            background-color: #FFFFFF; /* Fondo Blanco Vibrante */
+
+            border: none;
+
+            border-radius: 8px;
+
+            cursor: pointer;
+
+            transition: background-color 0.2s, transform 0.1s;
+
+        }
+
+        .action-button:hover {
+
+            background-color: #E0E0E0;
+
+            transform: translateY(-2px);
+
+        }
+
+        .info {
+
+            margin-top: 20px;
+
+            font-size: 0.9em;
+
+            color: #C8C8C8;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Centro de control <span>CyruX Hub</span></h1>
+
+
+
+        <div class="status-grid">
+
+            <div class="status-box">
+
+                <h3>Estado</h3>
+
+                <p style="color: #00FF96;">ACTIVO</p> </div>
+
+            <div class="status-box">
+
+                <h3>Versión</h3>
+
+                <p style="color: #FFFFFF;">BETA v2.0</p>
+
+            </div>
+
+            <div class="status-box">
+
+                <h3>Script</h3>
+
+                <p style="color: #FFFFFF;">UNIVERSAL</p>
+
+            </div>
+
+        </div>
+
+
+
+        <a href="https://link-a-tu-linkvertise.com/link_de_la_key" target="_blank" class="action-button" id="getKeyButton">
+
+            OBTENER CÓDIGO DE ACCESO
+
+        </a>
+
+
+
+        <p class="info">Al hacer clic serás redirigido al proceso de monetización para recibir tu clave temporal. **(La clave es válida por 24 horas)**</p>
+
+    </div>
+
+</body>
+
+</html>
